@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song 
   
   attr_reader :name, :artist, :genre 
@@ -14,8 +16,8 @@ class Song
     @@artists << artist
   end
   
-  def count
-    self.@@count
+  def self.count
+    @@count
   end
   
   def genres
