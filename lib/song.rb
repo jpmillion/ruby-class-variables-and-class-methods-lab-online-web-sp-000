@@ -30,7 +30,7 @@ class Song
   
   def self.genre_count
     binding.pry
-    self.genres.each_with_object(Hash.new(0)) {|k, h| h[k] += 1}
+    self.genres.inject(Hash.new(0)) {|k, h| h[k] += 1 ;total}
   end
   
   def self.artist_count
