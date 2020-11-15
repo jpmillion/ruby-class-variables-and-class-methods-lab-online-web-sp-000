@@ -25,6 +25,6 @@ class Song
   end
   
   def genre_count
-    @@genres.
+    @@genres.select.uniq
   
 end
