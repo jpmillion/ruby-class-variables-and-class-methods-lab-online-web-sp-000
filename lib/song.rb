@@ -14,4 +14,7 @@ class Song
     @@count
   end
   
+  def genres 
+  end
+  
 end
