@@ -28,4 +28,7 @@ class Song
     self.genres.tally
   end
   
+  def artist_count
+    
+  
 end
