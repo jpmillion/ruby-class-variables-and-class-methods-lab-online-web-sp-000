@@ -25,7 +25,7 @@ class Song
   end
   
   def genre_count
-    self.genres
+    self.genres.inject(Hash.new(0)) {|h, k| h[k] += 1; total}
   end
   
 end
