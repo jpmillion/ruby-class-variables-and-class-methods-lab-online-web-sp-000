@@ -30,5 +30,6 @@ class Song
   
   def artist_count
     self.artists.tally
+  end
   
 end
