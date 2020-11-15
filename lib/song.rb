@@ -22,5 +22,6 @@ class Song
   
   def artists 
     @@artists.uniq
+  end
   
 end
